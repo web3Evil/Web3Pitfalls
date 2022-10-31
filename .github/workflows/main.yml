@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: igor-kupczynski/notion-exporter@v1.0.2
         with:
-          pages: "Pitfalls-of-Web3-28c0302e12474f99a7ac854706cf0ca2"  # Pages IDs identified in (step 2)  
+          pages: "28c0302e12474f99a7ac854706cf0ca2"  # Pages IDs identified in (step 2)  
           output-dir: notion-backup
           notion-token: ${{ secrets.NOTION_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
